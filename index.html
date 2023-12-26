@@ -10,7 +10,9 @@
     href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto:wght@400;700&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./script/index.js" defer>
+  </script>
   <title>Delivery Food</title>
 </head>
 
@@ -27,7 +29,7 @@
               <img src="./images/icons/user.png" alt="user">
               Войти
             </button>
-            <button class="btn btn-outline">
+            <button class="btn btn-outline" id="cart-button">
               <img src="./images/icons/shopping-cart.png" alt="shopping-cart">
               Корзина
             </button>
@@ -58,7 +60,7 @@
 
 
           </div>
-          <div class="products-wrapper">
+          <div class="products-wrapper" id="rests-container">
             <a href="./goods.html" class="products-card">
               <div class="products-card__image">
                 <img src="./images/rests/pizza-plus.jpg" alt="pizza-plus">
@@ -289,6 +291,7 @@
       </div>
     </footer>
   </div>
+
 </body>
 
 </html>
